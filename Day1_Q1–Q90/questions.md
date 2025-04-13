@@ -1,12 +1,14 @@
-# Day 1 - Questions (Q1–Q90)
+```# Day 1 - Questions (Q1–Q90)
 
 🟦 Domain 1.0: Networking Fundamentals (24 Questions)
 
 1. Which of the following OSI layers is responsible for logical addressing?
+
 A. Data Link
 B. Network
 C. Session
 D. Transport
+
 
 2. What is the primary purpose of a subnet mask?
 A. Identify hostnames
@@ -546,3 +548,4 @@ A. DHCP failure
 B. DNS misconfiguration
 C. AP overload
 D. ICMP disabled
+```
