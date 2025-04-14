@@ -1,6 +1,6 @@
 # Day 3 - Questions (Q181–Q270)
 
-**Day 3 set of 90 MCQs based on the CompTIA Network+ N10-009 objectives, divided by official domain weight: **
+Day 3 set of 90 MCQs based on the CompTIA Network+ N10-009 objectives, divided by official domain weight:
 ✅ Domain Split:
 
     1.0 Networking Concepts – 23 Questions
