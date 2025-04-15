@@ -1,6 +1,6 @@
 # Day 4 - Questions (Q271–Q360)
 
-##🔥 Ready for Day 4, Kamlesh? Let’s go! Here’s your full 90-question practice set for the CompTIA Network+ N10-009 exam, based 100% on official objectives:
+🔥 Ready for Day 4, Kamlesh? Let’s go! Here’s your full 90-question practice set for the CompTIA Network+ N10-009 exam, based 100% on official objectives:
 ```
 ✅ Domain Distribution:
 
