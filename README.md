@@ -32,6 +32,3 @@ The questions in this repository span a variety of networking topics, including 
 
 Contributions are welcome! If you have additional questions or topics you'd like to see included, feel free to create a pull request or open an issue. Let's work together to make this resource even more valuable for the networking community.
 
----
-
-Feel free to copy and modify this README as needed!
