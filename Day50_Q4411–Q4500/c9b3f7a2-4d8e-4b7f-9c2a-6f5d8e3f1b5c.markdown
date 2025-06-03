@@ -1,0 +1,191 @@
+# CompTIA Network+ (N10-009) Day 50: 90 Questions
+
+## Networking Concepts (21 Questions)
+1. Which protocol assigns IP addresses dynamically?  
+   A) ARP, B) DHCP, C) DNS, D) ICMP  
+2. What is the role of the OSI Transport layer?  
+   A) Frame delivery, B) Reliable data transfer, C) Routing packets, D) Data encryption  
+3. Which port is used for SNMP?  
+   A) 161, B) 53, C) 80, D) 443  
+4. What does a VPC provide in GCP?  
+   A) Compute instances, B) Network isolation, C) Storage scaling, D) User management  
+5. Which IPv6 address is used for local communication?  
+   A) Global unicast, B) Link-local, C) Multicast, D) Anycast  
+6. What metric does OSPF use for path selection?  
+   A) Hop count, B) Cost, C) Latency, D) MTU  
+7. Which protocol signs DNS records for authenticity?  
+   A) DoH, B) DoT, C) DNSSEC, D) DHCP  
+8. What is the primary function of a content delivery network?  
+   A) Assign IPs, B) Cache content, C) Route packets, D) Monitor logs  
+9. Which wireless standard supports 160 MHz channels?  
+   A) 802.11a, B) 802.11ax, C) 802.11g, D) 802.11n  
+10. What does a switch use to forward frames?  
+    A) Routing table, B) ARP table, C) MAC address table, D) DNS cache  
+11. Which cable type supports 10 Gbps at 100 meters?  
+    A) Cat5e, B) Cat6a, C) Coaxial, D) Multimode fiber  
+12. What is the default port for LDAP?  
+    A) 389, B) 636, C) 445, D) 143  
+13. Which protocol operates at OSI Layer 7?  
+    A) IP, B) TCP, C) HTTP, D) Ethernet  
+14. What does VLSM allow in network design?  
+    A) Fixed subnet sizes, B) Variable subnet sizes, C) Encryption, D) Monitoring  
+15. Which cloud model provides serverless computing?  
+    A) SaaS, B) PaaS, C) IaaS, D) FaaS  
+16. What does IPSec use for secure tunneling?  
+    A) IKE, B) ESP, C) AH, D) NAT  
+17. Which topology is most scalable?  
+    A) Bus, B) Star, C) Mesh, D) Ring  
+18. What is the advantage of zero trust architecture?  
+   A) Encrypt data, B) Verify all access, C) Assign IPs, D) Monitor logs  
+19. Which protocol uses TCP/23?  
+    A) Telnet, B) SSH, C) FTP, D) SNMP  
+20. What is the APIPA IP range?  
+    A) 192.168.0.0/16, B) 172.16.0.0/12, C) 10.0.0.0/8, D) 169.254.0.0/16  
+21. Which port is used for RDP?  
+    A) 3389, B) 443, C) 22, D) 53  
+
+## Network Implementation (18 Questions)
+22. What does a VLAN tag indicate?  
+    A) IP address, B) VLAN ID, C) MAC address, D) Encryption key  
+23. Which protocol provides first-hop redundancy?  
+    A) HSRP, B) OSPF, C) LACP, D) STP  
+24. Which command creates a VLAN interface on a Cisco router?  
+    A) interface vlan 10, B) vlan 10, C) switchport vlan 10, D) create vlan 10  
+25. Which wireless frequency has the longest range?  
+    A) 2.4 GHz, B) 5 GHz, C) 6 GHz, D) 60 GHz  
+26. What prevents OSPF neighbor formation?  
+    A) Mismatched authentication, B) High bandwidth, C) VLAN tags, D) IP conflicts  
+27. Which routing protocol is link-state?  
+    A) RIP, B) EIGRP, C) OSPF, D) BGP  
+28. What is the maximum distance for Cat5e at 1 Gbps?  
+    A) 55 meters, B) 100 meters, C) 150 meters, D) 200 meters  
+29. Which wireless security protocol uses AES?  
+    A) WEP, B) WPA, C) WPA2, D) WPA3  
+30. What is the role of an IDF in a network?  
+    A) House core equipment, B) Connect end devices, C) Monitor traffic, D) Encrypt data  
+31. Which protocol aggregates switch ports?  
+    A) LACP, B) STP, C) VLAN, D) NAT  
+32. What is the purpose of a data VLAN?  
+    A) Secure devices, B) Carry user traffic, C) Prioritize VoIP, D) Isolate guests  
+33. Which 5 GHz channel avoids radar interference?  
+    A) 36, B) 52, C) 60, D) 100  
+34. What is the function of a distribution switch?  
+    A) Connect end devices, B) Aggregate traffic, C) Assign IPs, D) Monitor bandwidth  
+35. Which command shows OSPF adjacency details?  
+    A) show ip ospf neighbor, B) show vlan, C) show arp, D) show interfaces  
+36. What device connects multiple VLANs?  
+    A) Repeater, B) Router, C) Hub, D) Access point  
+37. Which antenna type is best for indoor coverage?  
+    A) Directional, B) Omnidirectional, C) Parabolic, D) Yagi  
+38. What is the administrative distance of BGP?  
+    A) 20, B) 90, C) 110, D) 200  
+39. Which cable supports 10GBase-T?  
+    A) Cat5e, B) Cat6a, C) Coaxial, D) Multimode fiber  
+
+## Network Operations (17 Questions)
+40. What does Wireshark analyze?  
+    A) Reachability, B) Packet captures, C) VLAN tags, D) LDAP queries  
+41. What does MTBF measure?  
+    A) Recovery time, B) Failure interval, C) Data loss, D) Bandwidth usage  
+42. What does SolarWinds use for alerting?  
+    A) Route traffic, B) Notifications, C) Assign IPs, D) Encrypt data  
+43. What does a physical network diagram represent?  
+    A) Logical flows, B) Device connections, C) IP assignments, D) Traffic patterns  
+44. Which tool scans open ports?  
+    A) Nmap, B) Ping, C) Wireshark, D) Traceroute  
+45. What does a warm site provide in DR?  
+    A) Fully operational systems, B) Partial equipment, C) No infrastructure, D) Hot backups  
+46. Which DNS record resolves to an IPv6 address?  
+    A) A, B) AAAA, C) MX, D) CNAME  
+47. What is the purpose of a network audit?  
+    A) Assign IPs, B) Assess compliance, C) Encrypt data, D) Route traffic  
+48. Which command shows VLAN trunk details?  
+    A) show interfaces trunk, B) show arp, C) show route, D) show interfaces  
+49. What does a high RTO indicate?  
+    A) Fast recovery, B) Slow recovery, C) Low data loss, D) High bandwidth  
+50. What does a forward proxy do?  
+    A) Protect servers, B) Hide clients, C) Backup systems, D) Route traffic  
+51. What does a spectrum analyzer measure?  
+    A) IP conflicts, B) Wireless interference, C) OSPF issues, D) VLAN mismatches  
+52. Which protocol uses TCP/636?  
+    A) SMB, B) LDAPS, C) SNMP, D) RADIUS  
+53. What does a high RPO indicate?  
+    A) Low data loss, B) High data loss, C) Fast recovery, D) High latency  
+54. Which tool monitors packet loss?  
+    A) Wireshark, B) PRTG, C) Ping, D) Telnet  
+55. What is the purpose of a CMDB?  
+    A) Monitor logs, B) Track assets, C) Assign IPs, D) Encrypt data  
+56. Which command shows OSPF routes?  
+    A) show ip route ospf, B) show vlan, C) show arp, D) show interfaces  
+
+## Network Security (13 Questions)
+57. What secures LDAP on port 389?  
+    A) SSL/TLS, B) VLAN tag, C) OSPF area, D) No encryption  
+58. Which protocol uses TCP/49 for authentication?  
+    A) RADIUS, B) TACACS+, C) LDAP, D) SAML  
+59. What does a firewall’s DMZ provide?  
+    A) Packet filtering, B) Public server isolation, C) VLAN tagging, D) IP assignment  
+60. Which attack uses fake DHCP servers?  
+    A) ARP spoofing, B) Rogue DHCP, C) DDoS, D) Phishing  
+61. What does an IPS do?  
+    A) Detect threats, B) Block threats, C) Assign IPs, D) Route traffic  
+62. Which security feature restricts port access?  
+    A) VLAN, B) 802.1X, C) RBAC, D) NAT  
+63. What is the purpose of a sandbox?  
+    A) Route traffic, B) Analyze malware, C) Assign IPs, D) Monitor logs  
+64. Which protocol secures email on port 995?  
+    A) SMTP, B) IMAPS, C) POP3S, D) SMTPS  
+65. What does a MITM attack intercept?  
+    A) IP addresses, B) Data in transit, C) VLAN tags, D) OSPF updates  
+66. Which authentication method uses passwords?  
+    A) LDAP, B) MFA, C) Biometrics, D) Smart cards  
+67. What is the purpose of an EDR system?  
+    A) Route traffic, B) Detect endpoint threats, C) Assign IPs, D) Monitor logs  
+68. Which port is used for secure syslog?  
+    A) 514, B) 6514, C) 123, D) 161  
+69. What does the CIA triad protect?  
+    A) Data security, B) Routing tables, C) IP assignments, D) Bandwidth  
+
+## Network Troubleshooting (21 Questions)
+70. What causes an LDAPS failure?  
+    A) Blocked port 636, B) High bandwidth, C) OSPF timeout, D) VLAN mismatch  
+71. Which command verifies OSPF configuration?  
+    A) show ip ospf, B) show vlan, C) show arp, D) show interfaces  
+72. What improves MTTR in network outages?  
+    A) Manual logs, B) Real-time monitoring, C) High latency, D) VLAN tagging  
+73. What causes OSPF adjacency issues?  
+    A) Mismatched MTU, B) Wrong SSID, C) Low bandwidth, D) VLAN mismatch  
+74. Which command tests DNS resolution?  
+    A) ping, B) nslookup, C) traceroute, D) netstat  
+75. What indicates a Layer 3 issue?  
+    A) Cable disconnect, B) IP routing failure, C) VLAN mismatch, D) CRC errors  
+76. A client cannot access a server. What is a likely cause?  
+    A) Firewall rules, B) VLAN mismatch, C) OSPF failure, D) High MTU  
+77. Which tool measures wireless channel usage?  
+    A) Wireshark, B) Wi-Fi analyzer, C) Nmap, D) Ping  
+78. What causes wireless packet loss?  
+    A) Strong signal, B) Interference, C) High MTU, D) OSPF timeout  
+79. Which command clears OSPF adjacency?  
+    A) clear ip ospf process, B) clear arp-cache, C) clear vlan, D) clear mac-address-table  
+80. What causes a broadcast storm?  
+    A) STP failure, B) VLAN mismatch, C) OSPF failure, D) High latency  
+81. Which tool tests copper cable pairs?  
+    A) Cable tester, B) OTDR, C) Wi-Fi analyzer, D) Nmap  
+82. What causes high latency?  
+    A) VLAN tagging, B) Network congestion, C) IP conflicts, D) OSPF timeout  
+83. Which command shows OSPF timers?  
+    A) show ip ospf interface, B) show vlan, C) show arp, D) show interfaces  
+84. What causes a VLAN access port failure?  
+    A) Incorrect VLAN ID, B) OSPF timeout, C) High MTU, D) Low bandwidth  
+85. A device cannot join a network. What is a likely cause?  
+    A) Incorrect SSID, B) High bandwidth, C) IP conflict, D) OSPF timeout  
+86. Which tool tests network bandwidth?  
+    A) iPerf, B) Ping, C) Nmap, D) Wireshark  
+87. What causes LDAP authentication errors?  
+    A) Invalid credentials, B) VLAN mismatch, C) OSPF timeout, D) High MTU  
+88. Which command shows interface errors?  
+    A) show interfaces, B) show vlan, C) show arp, D) show route  
+89. What indicates a good wireless connection?  
+    A) Low RSSI, B) High SNR, C) High latency, D) Slow recovery  
+90. Which protocol discovers network topology?  
+    A) ARP, B) LLDP, C) Nmap, D) Ping
